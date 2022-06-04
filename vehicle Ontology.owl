@@ -1,0 +1,1410 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/memoona/ontologies/2022/2/Vehicleontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/memoona/ontologies/2022/2/Vehicleontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/memoona/ontologies/2022/2/Vehicleontology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/memoona/ontologies/2022/2/Brake_calliper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ACTUABLE_VEHICLE_PROPERTY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accessory_Drive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Actrive_steering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antilock_brake_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Belt_Drive_Components"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Binary_lambda_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brake_Line"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brake_cylinder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brake_disc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brake_drum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brake_fluid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brake_lubricant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CABIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CHASIS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Camshaft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Catalytic_converter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chain_drive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clutch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coupling_rod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DOOR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diesel_particulate_filter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Differential"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disc_brake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dynamic_vehicle_property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electric_parking_brak"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electric_power_steering_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Engine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exhuast_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exhuast_manifold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fuel_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GEAR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gasoline_particulate_filter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gearbox"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAF_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MODEL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mounting_technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OBSERVABLE_VEHICLE_PROPERTY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Position_In_Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#REGISTRATION_NUMBER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reae_Axle_steering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEATS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#STERING_WHEEL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Silensrs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Snow_chains"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StatiC_Vehicle_Property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Steering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TIRE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temperature_Measuring_Signals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_Auxiliaries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transmision_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#V_belt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#V_ribbed_belts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehicle_Component"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehicle_Property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehicle_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WINDOW"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wheel_bearings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wideband_sensors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#brake_pad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#brake_servo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#brake_shoes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#charge_air_cooler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#connecting_rod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coolant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cooling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#crankshaft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cylinder_deactivation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cylinder_head"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cylinder_head_gasket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cylinders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#drum_brake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#engine_block"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#engine_control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#engine_control_unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#engine_mounts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#engine_sealing_technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fuel_pump"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glow_time_relays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hybrid_drive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hydraulic_shock_absorber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#independent_suspension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oil_pump"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oil_sump"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#overrunning_alternator_pilley"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#overrunning_belt_pulleys"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oxygen_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#petrol_direct_injection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#piston"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plain_bearings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#power_steering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rigid_axle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shock_absorbers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stabiliser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stop_start_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#summer_tyres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#suspension_link"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#suspension_springs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#timing_drive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#toothed_belt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#valves"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vibration_dampers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#water_pump"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wheel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wheel_carrier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wheel_suspension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#winter_tyres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tyres_&amp;_WHEEL"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Part_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Positioned_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongsToVehicleComponent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDynamicVehicleProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStaticVehicleProperty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Actuator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BMW"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BUS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CLOSE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Car"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LEFT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OPEN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RIGHT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Signals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TRUCK"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#color"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hardness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#odor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shape"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#size"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#texture"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/memoona/ontologies/2022/2/Brake_calliper"/>
+        <Class IRI="#Brake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ACTUABLE_VEHICLE_PROPERTY"/>
+        <Class IRI="#Dynamic_vehicle_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accessory_Drive"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Actrive_steering"/>
+        <Class IRI="#Steering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Antilock_brake_system"/>
+        <Class IRI="#Brake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Belt_Drive_Components"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Binary_lambda_sensor"/>
+        <Class IRI="#Exhuast_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Body"/>
+        <Class IRI="#Vehicle_Component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brake"/>
+        <Class IRI="#Body"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brake_Line"/>
+        <Class IRI="#Brake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brake_cylinder"/>
+        <Class IRI="#Brake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brake_disc"/>
+        <Class IRI="#Brake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brake_drum"/>
+        <Class IRI="#Brake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brake_fluid"/>
+        <Class IRI="#Brake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brake_lubricant"/>
+        <Class IRI="#Brake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brand"/>
+        <Class IRI="#StatiC_Vehicle_Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CABIN"/>
+        <Class IRI="#StatiC_Vehicle_Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CHASIS"/>
+        <Class IRI="#Vehicle_Component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Camshaft"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Catalytic_converter"/>
+        <Class IRI="#Exhuast_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chain_drive"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clutch"/>
+        <Class IRI="#Transmision_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coupling_rod"/>
+        <Class IRI="#CHASIS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DOOR"/>
+        <Class IRI="#CABIN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diesel_particulate_filter"/>
+        <Class IRI="#Exhuast_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Differential"/>
+        <Class IRI="#Transmision_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disc_brake"/>
+        <Class IRI="#Brake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dynamic_vehicle_property"/>
+        <Class IRI="#Vehicle_Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electric_parking_brak"/>
+        <Class IRI="#Brake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electric_power_steering_system"/>
+        <Class IRI="#Steering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Engine"/>
+        <Class IRI="#Vehicle_Component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exhuast_System"/>
+        <Class IRI="#Vehicle_Component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exhuast_manifold"/>
+        <Class IRI="#Exhuast_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fuel_Type"/>
+        <Class IRI="#The_Auxiliaries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GEAR"/>
+        <Class IRI="#StatiC_Vehicle_Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gasoline_particulate_filter"/>
+        <Class IRI="#Exhuast_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gearbox"/>
+        <Class IRI="#Transmision_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAF_sensor"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MODEL"/>
+        <Class IRI="#StatiC_Vehicle_Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mounting_technology"/>
+        <Class IRI="#Exhuast_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OBSERVABLE_VEHICLE_PROPERTY"/>
+        <Class IRI="#Dynamic_vehicle_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#REGISTRATION_NUMBER"/>
+        <Class IRI="#StatiC_Vehicle_Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reae_Axle_steering"/>
+        <Class IRI="#Steering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEATS"/>
+        <Class IRI="#CABIN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#STERING_WHEEL"/>
+        <Class IRI="#StatiC_Vehicle_Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensors"/>
+        <Class IRI="#The_Auxiliaries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Silensrs"/>
+        <Class IRI="#Exhuast_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Snow_chains"/>
+        <Class IRI="#Tyres_&amp;_WHEEL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StatiC_Vehicle_Property"/>
+        <Class IRI="#Vehicle_Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Steering"/>
+        <Class IRI="#Body"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TIRE"/>
+        <Class IRI="#Tyres_&amp;_WHEEL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature_Measuring_Signals"/>
+        <Class IRI="#The_Auxiliaries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Auxiliaries"/>
+        <Class IRI="#Vehicle_Component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transmision_System"/>
+        <Class IRI="#Vehicle_Component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#V_belt"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#V_ribbed_belts"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vehicle"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vehicle_Type"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WINDOW"/>
+        <Class IRI="#StatiC_Vehicle_Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wheel_bearings"/>
+        <Class IRI="#CHASIS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wideband_sensors"/>
+        <Class IRI="#Exhuast_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#brake_pad"/>
+        <Class IRI="#Brake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#brake_servo"/>
+        <Class IRI="#Brake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#brake_shoes"/>
+        <Class IRI="#Brake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#charge_air_cooler"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#connecting_rod"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coolant"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cooling"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#crankshaft"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cylinder_deactivation"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cylinder_head"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cylinder_head_gasket"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cylinders"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#drum_brake"/>
+        <Class IRI="#Brake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#engine_block"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#engine_control"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#engine_control_unit"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#engine_mounts"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#engine_sealing_technology"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fuel_pump"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glow_time_relays"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hybrid_drive"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hydraulic_shock_absorber"/>
+        <Class IRI="#CHASIS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#independent_suspension"/>
+        <Class IRI="#CHASIS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oil_pump"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oil_sump"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overrunning_alternator_pilley"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overrunning_belt_pulleys"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oxygen_sensor"/>
+        <Class IRI="#Exhuast_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#petrol_direct_injection"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#piston"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plain_bearings"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#power_steering"/>
+        <Class IRI="#Steering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rigid_axle"/>
+        <Class IRI="#CHASIS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shock_absorbers"/>
+        <Class IRI="#CHASIS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stabiliser"/>
+        <Class IRI="#CHASIS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stop_start_system"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#summer_tyres"/>
+        <Class IRI="#Tyres_&amp;_WHEEL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#suspension_link"/>
+        <Class IRI="#CHASIS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#suspension_springs"/>
+        <Class IRI="#CHASIS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#timing_drive"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#toothed_belt"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#valves"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vibration_dampers"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#water_pump"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wheel"/>
+        <Class IRI="#Tyres_&amp;_WHEEL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wheel_carrier"/>
+        <Class IRI="#CHASIS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wheel_suspension"/>
+        <Class IRI="#CHASIS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#winter_tyres"/>
+        <Class IRI="#Tyres_&amp;_WHEEL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tyres_&amp;_WHEEL"/>
+        <Class IRI="#Vehicle_Component"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Sensors"/>
+        <NamedIndividual IRI="#Actuator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Brand"/>
+        <NamedIndividual IRI="#BMW"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sensors"/>
+        <NamedIndividual IRI="#BMW"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vehicle_Type"/>
+        <NamedIndividual IRI="#BUS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vehicle_Type"/>
+        <NamedIndividual IRI="#Car"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#STERING_WHEEL"/>
+        <NamedIndividual IRI="#LEFT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#STERING_WHEEL"/>
+        <NamedIndividual IRI="#RIGHT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vehicle_Type"/>
+        <NamedIndividual IRI="#TRUCK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OBSERVABLE_VEHICLE_PROPERTY"/>
+        <NamedIndividual IRI="#hardness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OBSERVABLE_VEHICLE_PROPERTY"/>
+        <NamedIndividual IRI="#odor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OBSERVABLE_VEHICLE_PROPERTY"/>
+        <NamedIndividual IRI="#shape"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OBSERVABLE_VEHICLE_PROPERTY"/>
+        <NamedIndividual IRI="#size"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OBSERVABLE_VEHICLE_PROPERTY"/>
+        <NamedIndividual IRI="#texture"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Body"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Brake"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#CHASIS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Engine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Exhuast_System"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Steering"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#The_Auxiliaries"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Transmision_System"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Vehicle_Component"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Tyres_&amp;_WHEEL"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Positioned_at"/>
+        <Class IRI="#Vehicle_Component"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Positioned_at"/>
+        <Class IRI="#Vehicle_Property"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsToVehicleComponent"/>
+        <Class IRI="#Vehicle_Property"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDynamicVehicleProperty"/>
+        <Class IRI="#Fuel_Type"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDynamicVehicleProperty"/>
+        <Class IRI="#Sensors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDynamicVehicleProperty"/>
+        <Class IRI="#Snow_chains"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDynamicVehicleProperty"/>
+        <Class IRI="#Temperature_Measuring_Signals"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDynamicVehicleProperty"/>
+        <Class IRI="#coolant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDynamicVehicleProperty"/>
+        <Class IRI="#cooling"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDynamicVehicleProperty"/>
+        <Class IRI="#summer_tyres"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDynamicVehicleProperty"/>
+        <Class IRI="#winter_tyres"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStaticVehicleProperty"/>
+        <Class IRI="#Body"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStaticVehicleProperty"/>
+        <Class IRI="#CHASIS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStaticVehicleProperty"/>
+        <Class IRI="#Engine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStaticVehicleProperty"/>
+        <Class IRI="#Transmision_System"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="http://www.semanticweb.org/memoona/ontologies/2022/2/Brake_calliper"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Accessory_Drive"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Actrive_steering"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Antilock_brake_system"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Belt_Drive_Components"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Binary_lambda_sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Body"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Brake"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Brake_Line"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Brake_cylinder"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Brake_disc"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Brake_drum"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Brake_fluid"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Brake_lubricant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#CHASIS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Camshaft"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Catalytic_converter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Chain_drive"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Clutch"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Coupling_rod"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Diesel_particulate_filter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Differential"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Disc_brake"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Electric_parking_brak"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Electric_power_steering_system"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Engine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Exhuast_System"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Exhuast_manifold"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Fuel_Type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Gasoline_particulate_filter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Gearbox"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#MAF_sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Mounting_technology"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Reae_Axle_steering"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Sensors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Silensrs"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Snow_chains"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Steering"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#TIRE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Temperature_Measuring_Signals"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#The_Auxiliaries"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Transmision_System"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#V_belt"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#V_ribbed_belts"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Wheel_bearings"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Wideband_sensors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#brake_pad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#brake_servo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#brake_shoes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#charge_air_cooler"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#connecting_rod"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#coolant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#cooling"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#crankshaft"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#cylinder_deactivation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#cylinder_head"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#cylinder_head_gasket"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#cylinders"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#drum_brake"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#engine_block"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#engine_control"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#engine_control_unit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#engine_mounts"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#engine_sealing_technology"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#fuel_pump"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#glow_time_relays"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#hybrid_drive"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#hydraulic_shock_absorber"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#independent_suspension"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#oil_pump"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#oil_sump"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#overrunning_alternator_pilley"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#overrunning_belt_pulleys"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#oxygen_sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#petrol_direct_injection"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#piston"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#plain_bearings"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#power_steering"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#rigid_axle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#shock_absorbers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#stabiliser"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#stop_start_system"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#summer_tyres"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#suspension_link"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#suspension_springs"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#timing_drive"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#toothed_belt"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#valves"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#vibration_dampers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#water_pump"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#wheel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#wheel_carrier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#wheel_suspension"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#winter_tyres"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Tyres_&amp;_WHEEL"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Positioned_at"/>
+        <Class IRI="#Position_In_Vehicle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsToVehicleComponent"/>
+        <Class IRI="#Vehicle_Component"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDynamicVehicleProperty"/>
+        <Class IRI="#Dynamic_vehicle_property"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStaticVehicleProperty"/>
+        <Class IRI="#StatiC_Vehicle_Property"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
